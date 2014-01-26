@@ -1,4 +1,3 @@
-ggj14-gdr
-=========
+# Galaxy Distance Relationship [#ggj14](https://twitter.com/search?src=typd&q=%23ggj14)
 
-Galaxy Distance Relationship - a game created for Global Game Jam 2014
+A game created for Global Game Jam 2014

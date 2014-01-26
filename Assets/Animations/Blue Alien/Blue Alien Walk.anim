@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Blue Alien Walk
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 06173ee75457849b48de19f0f10fc808, type: 3}
+    - time: .0399999991
+      value: {fileID: 21300000, guid: cc78c726ffc0b4c0f8aec47a293bce70, type: 3}
+    - time: .0799999982
+      value: {fileID: 21300000, guid: 0eb7cfe7dc4c442cfaf5f044704f268e, type: 3}
+    - time: .119999997
+      value: {fileID: 21300000, guid: 0998dde4b2d8346feb81c8c873516a7a, type: 3}
+    - time: .159999996
+      value: {fileID: 21300000, guid: 7ea218ebe06f9444383bc89cc3a560b9, type: 3}
+    - time: .200000003
+      value: {fileID: 21300000, guid: 5aee5c38629a942f7832d05a5a13a740, type: 3}
+    - time: .239999995
+      value: {fileID: 21300000, guid: 55e017eff6bca4f56805e50a89b167f2, type: 3}
+    - time: .280000001
+      value: {fileID: 21300000, guid: 3e8fe0f674b664036b4f393bc986f0a4, type: 3}
+    - time: .319999993
+      value: {fileID: 21300000, guid: a2ca2f74607aa4acdbc2a5285bcade13, type: 3}
+    - time: .360000014
+      value: {fileID: 21300000, guid: a72e1a913393c4cdfaeaa9eb76cb5219, type: 3}
+    - time: .400000006
+      value: {fileID: 21300000, guid: 277a55363fdad4a8191b51775212c393, type: 3}
+    attribute: m_Sprite
+    path: Blue Alien Body
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 25
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .439999998
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

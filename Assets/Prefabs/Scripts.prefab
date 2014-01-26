@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead24e69fa7d2435db07e43bb90507d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorKeys:
+  - keyColor: 0
+    enabled: 1
+    received: 0
+    enabledKeyTextures: {fileID: 2800000, guid: c479cb7f2e951433ea08fb6a5f356dde,
+      type: 3}
+    disabledKeyTextures: {fileID: 2800000, guid: 21530430305494e1db04813754d46f6e,
+      type: 3}
+  - keyColor: 1
+    enabled: 1
+    received: 0
+    enabledKeyTextures: {fileID: 2800000, guid: 1a6413e11d2744ddbbb0e5c6b9b441b4,
+      type: 3}
+    disabledKeyTextures: {fileID: 2800000, guid: 5ce408447eee84a77968ec6c74aaa1d8,
+      type: 3}
+  - keyColor: 2
+    enabled: 1
+    received: 0
+    enabledKeyTextures: {fileID: 2800000, guid: 404628254c0d94e4094f5991b20cf0c3,
+      type: 3}
+    disabledKeyTextures: {fileID: 2800000, guid: 937678aed7e504e7e82d860dc0841c30,
+      type: 3}
+  - keyColor: 3
+    enabled: 1
+    received: 0
+    enabledKeyTextures: {fileID: 2800000, guid: 3ef15d4b4aff144bda9e348734c7f1a4,
+      type: 3}
+    disabledKeyTextures: {fileID: 2800000, guid: 750bf51aa8d53472195cac056f39937d,
+      type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8329adef046b3413cb1f011aa6768478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  totalLove: 3
+  playerMale: {fileID: 0}
+  playerFemale: {fileID: 0}
+  loveTexture: {fileID: 2800000, guid: 0fb21e6823bb64ff08e91f1afb77785d, type: 3}
+  emptyLoveTexture: {fileID: 2800000, guid: 505dc35029b68488e88c5874e082cb97, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

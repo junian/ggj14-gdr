@@ -90,7 +90,7 @@ public class Game : MonoBehaviour {
 
 			if(GUI.Button(btnRect, "Main Menu"))
 			{
-				Application.LoadLevel(Scenes.MainMenu);
+				Application.LoadLevel(Scenes.LevelSelect);
 			}
 
 			btnRect = new Rect(startX + buttonWidth, startY, buttonWidth, buttonHeight);

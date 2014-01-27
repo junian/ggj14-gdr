@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-	public static int MaxLevel = 16;
+	public static int MaxLevel = 6;
 	public static int SelectedLevel = 0;
 	public static int CurrentLevel = 0;
 
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour {
 	{
 		if(SelectedLevel == MaxLevel)
 		{
-			Debug.Log("Udah tamat");
+			Application.LoadLevel(Scenes.LevelSelect);
 			return;
 		}
 

@@ -30,15 +30,15 @@ public class ChainGenerator : MonoBehaviour {
 			if(i > 0)
 			{
 				var hingeJoint = chain.gameObject.AddComponent<HingeJoint2D>();
-				hingeJoint.connectedBody = chainList[i-1].rigidbody2D;
+				hingeJoint.connectedBody = chainList[i-1].GetComponent<Rigidbody2D>();
 				var anchor = hingeJoint.anchor;
 				anchor.y = 0.65f;
 				hingeJoint.anchor = anchor;
-				hingeJoint.collideConnected = true;
+				hingeJoint.enableCollision = true;
 			}
 			else
 			{
-				chain.rigidbody2D.isKinematic = true;
+				chain.GetComponent<Rigidbody2D>().isKinematic = true;
 			}
 		}
 	}

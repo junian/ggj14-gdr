@@ -65,8 +65,8 @@ public class PlayerController : MonoBehaviour {
 			playerState = PlayerState.Die;
 			hp--;
 			animator.SetInteger("HP", hp);
-			this.rigidbody2D.fixedAngle = false;
-			this.rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpForce);
+			this.GetComponent<Rigidbody2D>().fixedAngle = false;
+			this.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpForce);
 			var colliders = this.GetComponents<Collider2D>();
 			foreach(var c in colliders)
 				Destroy(c);
@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour {
 
 		animator.SetBool("Grounded", isGrounded);
 
-		Vector2 velocity = rigidbody2D.velocity;
+		Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
 
 		float speedFactor = isGrounded ? 1.0f : 0.5f;
 
@@ -175,7 +175,7 @@ public class PlayerController : MonoBehaviour {
 			if(isJumpAllowed)
 			{
 				velocity.y = jumpForce;
-				rigidbody2D.velocity = velocity;
+				GetComponent<Rigidbody2D>().velocity = velocity;
 			}
 		}
 		KeepPlayerInsideCamera();

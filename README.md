@@ -2,6 +2,6 @@
 
 A game created for Global Game Jam 2014
 
+## License
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/junian/ggj14-gdr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+This game is licensed under the [GPL 2.0](https://github.com/junian/ggj14-gdr/blob/master/LICENSE).

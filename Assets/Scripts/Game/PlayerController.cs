@@ -147,7 +147,7 @@ public class PlayerController : MonoBehaviour {
 		float maxHorizontalAxis = axisVal > hardVal ? leftTouchPad.position.x : Input.GetAxis("Horizontal");
 
 		horizontalSpeed = maxHorizontalAxis * moveSpeed * mirrorValue * Time.deltaTime * speedFactor;
-		animator.SetFloat("Speed", Mathf.Abs(horizontalSpeed));
+        animator.SetFloat("Speed", Mathf.Abs(horizontalSpeed));
 		//DebugConsole.Log("isGrounded: " + isGrounded); 
 
 		if((horizontalSpeed > 0.0f && !rightDirection) || 
@@ -173,9 +173,10 @@ public class PlayerController : MonoBehaviour {
 				isJumpAllowed = true;
 			}
 
-			if(isJumpAllowed)
-			{
-				velocity.y = jumpForce;
+            // TODO: FIX THIS, uncommend `if(isJumpAllowed)`
+            //if(isJumpAllowed)
+            {
+                velocity.y = jumpForce;
 				GetComponent<Rigidbody2D>().velocity = velocity;
 			}
 		}

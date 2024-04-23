@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour {
 
@@ -55,7 +56,7 @@ public class LevelSelect : MonoBehaviour {
 
 		if(GUI.Button(new Rect(1,1,buttonWidth,buttonHeight), "Master"))
 		{
-			Application.LoadLevel(Scenes.Level00);
+			SceneManager.LoadScene(Scenes.Level00);
 		}
 
 		#endif

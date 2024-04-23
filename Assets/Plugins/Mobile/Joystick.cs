@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Joystick : MonoBehaviour {
 
@@ -28,7 +29,7 @@ public class Joystick : MonoBehaviour {
 	private float fingerDownTime;
 	//private float firstDeltaTime = 0.5f;
 	
-	private GUITexture gui;								// Joystick graphic
+	private RawImage gui;								// Joystick graphic
 	private Rect defaultRect;								// Default position / extents of the joystick graphic
 	private Boundary guiBoundary = new Boundary();			// Boundary for joystick graphic
 	private Vector2 guiTouchOffset;						// Offset to apply to touch input

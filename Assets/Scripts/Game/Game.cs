@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour {
 
@@ -90,7 +91,7 @@ public class Game : MonoBehaviour {
 
 			if(GUI.Button(btnRect, "Main Menu"))
 			{
-				Application.LoadLevel(Scenes.LevelSelect);
+				SceneManager.LoadScene(Scenes.LevelSelect);
 			}
 
 			btnRect = new Rect(startX + buttonWidth, startY, buttonWidth, buttonHeight);

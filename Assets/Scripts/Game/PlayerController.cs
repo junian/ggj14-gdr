@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 	public delegate void PlayerMeetEventHandler(object sender, System.EventArgs e);
@@ -118,7 +119,7 @@ public class PlayerController : MonoBehaviour {
 	void OnDestroy()
 	{
 		if(playerState == PlayerState.Die)
-			Application.LoadLevel(Scenes.MainMenu);
+			SceneManager.LoadScene(Scenes.MainMenu);
 	}
 	
 	// Update is called once per frame

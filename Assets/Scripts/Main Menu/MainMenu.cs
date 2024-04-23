@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class MainMenu : MonoBehaviour {
 		                       buttonWidth,
 		                       buttonHeight), "Start Game"))
 		{
-			Application.LoadLevel(Scenes.LevelSelect);
+			SceneManager.LoadScene(Scenes.LevelSelect);
 		}
 	}
 }

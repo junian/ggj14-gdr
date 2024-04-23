@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -12,7 +13,7 @@ public class GameManager : MonoBehaviour {
 	public static void SelectLevel(int level)
 	{
 		GameManager.SelectedLevel = level;
-		Application.LoadLevel(PrefKeys.GetLevel(level));
+		SceneManager.LoadScene(PrefKeys.GetLevel(level));
 	}
 
 	public static void SaveGame(int score)
@@ -38,7 +39,7 @@ public class GameManager : MonoBehaviour {
 	{
 		if(SelectedLevel == MaxLevel)
 		{
-			Application.LoadLevel(Scenes.LevelSelect);
+			SceneManager.LoadScene(Scenes.LevelSelect);
 			return;
 		}
 

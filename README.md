@@ -8,7 +8,9 @@ A platformer game created for Global Game Jam 2014.
 
 ## Credits
 
-Art by [Kenney.nl](https://kenney.nl/assets/platformer-pack-redux).
+Game arts: [Platformer Pack Redux - Kenney](https://kenney.nl/assets/platformer-pack-redux).
+
+Music: [Space Ace](https://opengameart.org/content/space-ace).
 
 ## License
 

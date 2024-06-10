@@ -1,10 +1,10 @@
-# Galaxy Distance Relationship
+<h1 align="center">Galaxy Distance Relationship</h1>
 
-A platformer game created for Global Game Jam 2014. 
+<p align="center">A platformer game created for Global Game Jam 2014.</p>
 
-**[PLAY ONLINE](https://www.juniansoft.com/ggj14-gdr/)** - [#ggj14](https://twitter.com/search?src=typd&q=%23ggj14)
+<p align="center"><strong><a href="https://www.junian.dev/ggj14-gdr/">Play on Browser</a></strong></p>
 
-![Galaxy Distance Relationship](https://raw.githubusercontent.com/junian/ggj14-gdr/gh-pages/assets/ggj14-gdr.gif "Galaxy Distance Relationship")
+<p align="center"><img src="https://raw.githubusercontent.com/junian/ggj14-gdr/gh-pages/assets/ggj14-gdr.gif" alt="Galaxy Distance Relationship" title="Galaxy Distance Relationship" /></p>
 
 ## Credits
 
